@@ -5,8 +5,10 @@ import WeatherCondition from './Components/WeatherCondition/WeatherCondition';
 import AuthForm from './Components/AuthForm/AuthForm';
 
 function App() {
+
   return (
     <div className="App">
+      <NavBar/>
 
 
 

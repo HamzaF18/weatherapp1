@@ -1,0 +1,23 @@
+.nav-bar{
+    border: 2px solid black;
+    width:100%;
+    background-color: rgb(222, 221, 221);
+}
+.nav-buttons{
+    border: 1px solid blue;
+    width:50%;
+    display: flex;
+    margin: auto;
+    padding:10px;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.nav-buttons button{
+    background-color: black;
+    color:white;
+    width:250px;
+    height: 50px;
+    
+
+}
