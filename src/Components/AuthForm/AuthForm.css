@@ -1,0 +1,13 @@
+.auth-container{
+    border:2px solid black;
+    
+}
+.auth-form{
+    border:2px solid brown;
+    margin:auto;
+    width:50%;
+}
+
+.auth-login{
+    display:flex;
+}

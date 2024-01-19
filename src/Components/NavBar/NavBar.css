@@ -1,6 +1,6 @@
 .nav-bar{
     border: 2px solid black;
-    width:100%;
+    /* width:100%; */
     background-color: rgb(222, 221, 221);
 }
 .nav-buttons{
