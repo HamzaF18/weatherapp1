@@ -2,7 +2,7 @@ import "./Home.css"
 
 const Home = ()=>{
     return(
-        <div></div>
+        <div>This is the home page</div>
     )
 }
 export default Home;

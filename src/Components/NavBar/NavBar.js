@@ -6,13 +6,9 @@ const NavButton = ({ text, path }) => {
 
     const navigate = useNavigate()
 
-
     return (
-
         <button onClick={() => navigate(path)}>
-
             {text}
-
         </button>
 
     )
@@ -20,12 +16,7 @@ const NavButton = ({ text, path }) => {
 }
 
 const NavBar = ()=>{
-
-    
-
     return(
-
-
         <div className="nav-bar">
             <div className="nav-buttons">
                 <NavButton text="Home" path="/"/>
