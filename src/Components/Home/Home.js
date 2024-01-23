@@ -15,6 +15,9 @@ const Home = ()=>{
                     <div className="card"><p>Friday 11 C</p></div>
                 </div>
             </div>
+            <div className="bottom">
+                <div className="map"></div>
+            </div>
         </div>
     )
 }

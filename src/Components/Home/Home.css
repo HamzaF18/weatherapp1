@@ -24,9 +24,19 @@
     /* width: 800px; */
     /* margin: auto; */
     /* display: evenly; */
-   
-    
 }
 .card{
     border: 1px solid blue;
+}
+.bottom{
+    /* border: 2px solid black; */
+    padding: 10px;
+    
+}
+.map{
+    /* background-color: brown; */
+    border: 2px solid black;
+    height: 600px;
+    width: 50%;
+    margin: auto;
 }
