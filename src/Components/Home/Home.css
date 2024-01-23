@@ -21,12 +21,22 @@
 }
 .cards{
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     /* width: 800px; */
     /* margin: auto; */
     /* display: evenly; */
 }
 .card{
     border: 1px solid blue;
+    flex: 1;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
 }
 .bottom{
     /* border: 2px solid black; */
