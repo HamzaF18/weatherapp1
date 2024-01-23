@@ -20,8 +20,13 @@
     padding:6px 2px;
 }
 .cards{
-    border: 1px solid black;
+    border: 2px solid black;
+    /* width: 800px; */
+    /* margin: auto; */
     /* display: evenly; */
-    /* padding-top: 10px 0; */
+   
     
+}
+.card{
+    border: 1px solid blue;
 }

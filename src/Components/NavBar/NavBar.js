@@ -20,7 +20,7 @@ const NavBar = ()=>{
         <div className="nav-bar">
             <div className="nav-buttons">
                 <NavButton text="Home" path="/"/>
-                <NavButton text="Weather Map" path="/weather" />
+                <NavButton text="FAQ " path="/faq" />
                 <NavButton text="Sign in" path="/login"/>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
-import WeatherCondition from './Components/WeatherCondition/WeatherCondition';
+import FAQ from './Components/FAQ/FAQ';
 import AuthForm from './Components/AuthForm/AuthForm';
 import Home from "./Components/Home/Home";
 
@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
       <Route path="/" element={<Home />} />
-        <Route path="/weather" element={<WeatherCondition />} />
+        <Route path="/faq" element={<FAQ />} />
         <Route path="/login" element={<AuthForm />} />
       </Routes>
 

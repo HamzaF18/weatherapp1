@@ -1,0 +1,21 @@
+.faq-container{
+    justify-content: space-between;
+    gap: 10px;
+}
+.title{
+    border:1px solid green;
+    background-color: rgb(194, 192, 192);
+    text-align: center;
+}
+.sub-title{
+    border:2px solid black;
+    width: fit-content;
+    background-color:rgb(194, 192, 192);
+}
+.info-box{
+    border: 2px solid black;
+    width: 316px;
+    overflow-wrap: break-word;
+    /* padding: 0; */
+    /* margin: 0; */
+}

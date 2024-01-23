@@ -8,11 +8,11 @@ const Home = ()=>{
                     <input className="location" name="text" placeholder="Search Location..."></input>
                 </div>
                 <div className="cards">
-                    <span>HI</span>
-                    <span>hI</span>
-                    <span>hi</span>
-                    <span>hi</span>
-                    <span>hi</span>
+                    <div className="card"><p>Monday 20 C</p></div>
+                    <div className="card"><p>Tuesday 19 C</p></div>
+                    <div className="card"><p>Wednesday 16 C</p></div>
+                    <div className="card"><p>Thurseday 12 C</p></div>
+                    <div className="card"><p>Friday 11 C</p></div>
                 </div>
             </div>
         </div>
