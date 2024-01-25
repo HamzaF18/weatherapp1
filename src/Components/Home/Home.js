@@ -1,4 +1,6 @@
 import "./Home.css"
+import { useState } from "react";
+
 
 //make a component called day card
 //make it accept props for the things you want to display
@@ -6,19 +8,40 @@ import "./Home.css"
 
 
 const Home = () => {
-    
+
+    const [weatherData, setWeatherData] = useState();
+    const [city, setCity] = useState();
+    const api_key = "1585b602fad78a768ac1f449afa04da6";
+
+    const getWeather = (event) =>{
+        if (event.key === "Enter"){
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`).then(response => response.json()
+            ).then(
+                data=>{
+                    setWeatherData(data)
+                }
+            )
+        }
+    }
+   
+
     // function makeWeatherDay(day) {
-        // <span>average temp {day.average}</span>
+    // <span>average temp {day.average}</span>
     // }
 
-    const API_KEY = fetch("https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=c60a15bb68edd82da3a14067a230b570")
-    
+    // const API_KEY = fetch("https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=c60a15bb68edd82da3a14067a230b570")
+
 
     return (
         <div className="home-container">
             <div className="top">
                 <div className="search">
-                    <input className="location" name="text" placeholder="Search Location..."></input>
+                    <input className="location"
+                        name="text"
+                        placeholder="Search Location..."
+                        onChange={e => setCity(e.target.value)}
+                        value={city}
+                        onKeyPress={getWeather}></input>
                 </div>
                 <div className="cards">
 

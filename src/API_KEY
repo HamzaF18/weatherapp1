@@ -1,1 +1,0 @@
-const API_KEY = fetch("https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=c60a15bb68edd82da3a14067a230b570")
