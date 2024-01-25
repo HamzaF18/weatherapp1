@@ -3,11 +3,16 @@ import "./Home.css"
 //make a component called day card
 //make it accept props for the things you want to display
 
-const Home = () => {
 
-    function makeWeatherDay(day) {
-        <span>average temp {day.average}</span>
-    }
+
+const Home = () => {
+    
+    // function makeWeatherDay(day) {
+        // <span>average temp {day.average}</span>
+    // }
+
+    const API_KEY = fetch("https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=c60a15bb68edd82da3a14067a230b570")
+    
 
     return (
         <div className="home-container">
