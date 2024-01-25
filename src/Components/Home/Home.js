@@ -3,13 +3,13 @@ import "./Home.css"
 //make a component called day card
 //make it accept props for the things you want to display
 
-const Home = ()=>{
-    
-    function makeWeatherDay(day){
+const Home = () => {
+
+    function makeWeatherDay(day) {
         <span>average temp {day.average}</span>
     }
-    
-    return(
+
+    return (
         <div className="home-container">
             <div className="top">
                 <div className="search">
@@ -29,10 +29,30 @@ const Home = ()=>{
                         <span>L</span>
                         <span>H</span>
                     </div>
-                    <div className="card"><p>Tuesday 19 C</p></div>
-                    <div className="card"><p>Wednesday 16 C</p></div>
-                    <div className="card"><p>Thurseday 12 C</p></div>
-                    <div className="card"><p>Friday 11 C</p></div>
+                    <div className="card">
+                        <span>Tuesday</span>
+                        <span>Average Temp 10C</span>
+                        <span>H</span>
+                        <span>H</span>
+                    </div>
+                    <div className="card">
+                        <span>Wednesday</span>
+                        <span>Average Temp 18C</span>
+                        <span>L</span>
+                        <span>H</span>
+                    </div>
+                    <div className="card">
+                        <span>Thurseday</span>
+                        <span>Average Temp 14C</span>
+                        <span>L</span>
+                        <span>L</span>
+                    </div>
+                    <div className="card">
+                        <span>Friday</span>
+                        <span>Average Temp 15C</span>
+                        <span>H</span>
+                        <span>L</span>
+                    </div>
                 </div>
             </div>
             <div className="bottom">
