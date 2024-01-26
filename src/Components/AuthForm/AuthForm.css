@@ -6,23 +6,25 @@
 }
 
 .auth-form {
-    border: 2px solid brown;
+    /* border: 1px solid rgb(153, 111, 111); */
     margin: auto;
     width: 40%;
     text-align: center;
     height: 40%;
     transform: translate(0,50%);
-    background-color: aqua;
+    background-color: rgb(141, 144, 145);
 }
 
 .auth-content {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* padding: 10px; */
     margin-top: 100px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    position: relative;
+    top: 20%;
 }
 
 .auth-login {
