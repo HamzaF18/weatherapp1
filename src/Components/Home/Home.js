@@ -16,7 +16,7 @@ const Home = () => {
 
     const getWeather = (event) => {
         if (event.key === "Enter") {
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`).then(response => response.json()
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${api_key}&units=metric`).then(response => response.json()
             ).then(
                 data => {
                     setWeatherData(data)
@@ -48,49 +48,50 @@ const Home = () => {
                 </div>
 
 
-                {typeof weatherData?.main === 'undefined' ? (
+                {typeof weatherData?.list[0].main === 'undefined' ? (
                     <div></div>
                 ) : (
 
 
                     <div className="cards">
-                        
+
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {weatherData.main.temp}</span>
+                            <span>Average Temp {Math.round(weatherData.list[0].main.temp)}</span>
+                            <span>Feels like {weatherData.list[0].weather[0].description}</span>
                         </div>
 
                         <div className="card">
-                            <span>Monday</span>
-                            <span>Average Temp 20C</span>
-                            <span>L</span>
-                            <span>H</span>
+                            {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
+                            <span>Temp {Math.round(weatherData.list[8].main.temp)}</span>
+                            <span>Feels like {weatherData.list[8].weather[0].description}</span>
                         </div>
+
                         <div className="card">
-                            <span>Tuesday</span>
-                            <span>Average Temp 10C</span>
-                            <span>H</span>
-                            <span>H</span>
+                            {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
+                            <span>Average Temp {Math.round(weatherData.list[16].main.temp)}</span>
+                            <span>Feels like {weatherData.list[16].weather[0].description}</span>
                         </div>
+
                         <div className="card">
-                            <span>Wednesday</span>
-                            <span>Average Temp 18C</span>
-                            <span>L</span>
-                            <span>H</span>
+                            {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
+                            <span>Average Temp {Math.round(weatherData.list[24].main.temp)}</span>
+                            <span>Feels like {weatherData.list[24].weather[0].description}</span>
                         </div>
+
                         <div className="card">
-                            <span>Thurseday</span>
-                            <span>Average Temp 14C</span>
-                            <span>L</span>
-                            <span>L</span>
+                            {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
+                            <span>Average Temp {Math.round(weatherData.list[32].main.temp)}</span>
+                            <span>Feels like {weatherData.list[32].weather[0].description}</span>
                         </div>
+
                         <div className="card">
-                            <span>Friday</span>
-                            <span>Average Temp 15C</span>
-                            <span>H</span>
-                            <span>L</span>
+                            {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
+                            <span>Average Temp {Math.round(weatherData.list[39].main.temp)}</span>
+                            <span>Feels like {weatherData.list[39].weather[0].description}</span>
                         </div>
+
                     </div>
                 )}
             </div>

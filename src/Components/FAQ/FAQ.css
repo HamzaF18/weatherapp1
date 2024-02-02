@@ -2,7 +2,7 @@
     justify-content: space-between;
     gap: 10px;
     padding: 10px 0px;
-    background-color: azure;
+    /* background-color: azure; */
 }
 .title{
     border:1px solid green;
