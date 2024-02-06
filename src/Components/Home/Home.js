@@ -95,8 +95,9 @@ const Home = () => {
                     </div>
                 )}
             </div>
-            <div className="bottom">
-                <div className="map"></div>
+            <div className="content">
+                <img src="https://cdn.24.co.za/files/Cms/General/d/8758/bb7d84c1162045e5ac62b0b7389d12d6.jpg"/>
+                <div className="text"><h1>Welcome to the Health Advice Group</h1></div>
             </div>
         </div>
     )

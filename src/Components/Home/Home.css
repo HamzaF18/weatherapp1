@@ -39,15 +39,19 @@
     gap: 16px;
 
 }
-.bottom{
-    /* border: 2px solid black; */
+.content{
+    display: flex;
+}
+
+/* .bottom{
+    border: 2px solid black;
     padding: 10px;
     
 }
 .map{
-    /* background-color: brown; */
+    background-color: brown;
     border: 2px solid black;
     height: 600px;
     width: 50%;
     margin: auto;
-}
+} */
