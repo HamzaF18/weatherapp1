@@ -17,7 +17,8 @@
     /* align-items: center; */
 }
 .location{
-    width:250px;
+    width: 850px;
+    margin-left: 450px;
     padding:6px 2px;
 }
 .cards{
@@ -33,15 +34,21 @@
     border: 1px solid blue;
     flex: 1;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
 
+.text{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
-.content{
+
+/* .content{
     display: flex;
-}
+} */
 
 /* .bottom{
     border: 2px solid black;

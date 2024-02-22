@@ -58,46 +58,59 @@ const Home = () => {
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {Math.round(weatherData.list[0].main.temp)}</span>
-                            <span>Feels like {weatherData.list[0].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[0].main.temp)}</span>
+                            <span><strong>{weatherData.list[0].weather[0].description}</strong></span>
+                            <span><strong>Wind speed</strong> {weatherData.list[0].wind.speed}km/h</span>
                         </div>
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Temp {Math.round(weatherData.list[8].main.temp)}</span>
-                            <span>Feels like {weatherData.list[8].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[8].main.temp)}</span>
+                            <span>{weatherData.list[8].weather[0].description}</span>
+                            <span><strong>Wind speed</strong> {weatherData.list[8].wind.speed}km/h</span>
                         </div>
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {Math.round(weatherData.list[16].main.temp)}</span>
-                            <span>Feels like {weatherData.list[16].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[16].main.temp)}</span>
+                            <span>{weatherData.list[16].weather[0].description}</span>
+                            <span><strong>Wind speed</strong> {weatherData.list[16].wind.speed}km/h</span>
                         </div>
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {Math.round(weatherData.list[24].main.temp)}</span>
-                            <span>Feels like {weatherData.list[24].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[24].main.temp)}</span>
+                            <span>{weatherData.list[24].weather[0].description}</span>
+                            <span><strong>Wind speed</strong> {weatherData.list[24].wind.speed}km/h</span>
                         </div>
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {Math.round(weatherData.list[32].main.temp)}</span>
-                            <span>Feels like {weatherData.list[32].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[32].main.temp)}</span>
+                            <span>{weatherData.list[32].weather[0].description}</span>
+                            <span><strong>Wind speed</strong> {weatherData.list[32].wind.speed}km/h</span>
                         </div>
 
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
-                            <span>Average Temp {Math.round(weatherData.list[39].main.temp)}</span>
-                            <span>Feels like {weatherData.list[39].weather[0].description}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[39].main.temp)}</span>
+                            <span>{weatherData.list[39].weather[0].description}</span>
+                            <span><strong>Wind speed</strong> {weatherData.list[39].wind.speed}km/h</span>
                         </div>
 
                     </div>
                 )}
             </div>
             <div className="content">
-                <img src="https://cdn.24.co.za/files/Cms/General/d/8758/bb7d84c1162045e5ac62b0b7389d12d6.jpg"/>
-                <div className="text"><h1>Welcome to the Health Advice Group</h1></div>
+                {/* <img src="https://cdn.24.co.za/files/Cms/General/d/8758/bb7d84c1162045e5ac62b0b7389d12d6.jpg"/> */}
+                <div className="text">
+                    <h1>Welcome to the Health Advice Group</h1>
+                    <h2>Our wesbite offers free information and support for environmental health issues to everyone!</h2>
+                    <ul><strong>Our services include</strong>:
+                        <li>A 5-day weather forecast</li>
+                        <li>An advice page with faq's and health advice</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
