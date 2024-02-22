@@ -32,6 +32,27 @@ const FAQ = () => {
 
 
             </div>
+            <div className="content-2">
+                <div className="winter">
+                    <h2>Winter</h2>
+                    <p>The weather conditions in the winter are extremely harsh. With temperatures reaching up to -5 in the UK, taking care of your health is a top priority.
+                        <ul>Dangers from low temperature exposure include:
+                            <li>Frostbite</li>
+                            <li>Hypothermia</li>
+                        </ul>
+                    </p>
+                </div>
+                <div className="summer">
+                    <h3>Summer</h3>
+                    <p>The weather conditions in the summer are severe in the majority of countries. With temperatures reaching up to 40 C, taking care of your health is a priority.
+                        <ul>Dangers from high temperature exposure include:
+                            <li>Heatstroke</li>
+                            <li>Hyperthermia</li>
+                            <li>Heat rashes</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
