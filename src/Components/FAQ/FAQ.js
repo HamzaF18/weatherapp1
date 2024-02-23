@@ -33,6 +33,7 @@ const FAQ = () => {
 
             </div>
             <div className="content-2">
+                <h1>Severe Weather</h1>
                 <div className="winter">
                     <h2>Winter</h2>
                     <p>The weather conditions in the winter are extremely harsh. With temperatures reaching up to -5 in the UK, taking care of your health is a top priority.

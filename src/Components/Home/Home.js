@@ -59,7 +59,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[0].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[0].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[0].main.temp)}°C</span>
                             <span><strong>{weatherData.list[0].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[0].wind.speed}km/h</span>
                         </div>
@@ -67,7 +67,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[8].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[8].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[8].main.temp)}°C</span>
                             <span><strong>{weatherData.list[8].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[8].wind.speed}km/h</span>
                         </div>
@@ -75,7 +75,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[16].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[16].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[16].main.temp)}°C</span>
                             <span><strong>{weatherData.list[16].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[16].wind.speed}km/h</span>
                         </div>
@@ -83,7 +83,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[24].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[24].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[24].main.temp)}°C</span>
                             <span><strong>{weatherData.list[24].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[24].wind.speed}km/h</span>
                         </div>
@@ -91,7 +91,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[32].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[32].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[32].main.temp)}°C</span>
                             <span><strong>{weatherData.list[32].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[32].wind.speed}km/h</span>
                         </div>
@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="card">
                             {/* <span>{Date(weatherData.main.dt*1000)}</span> */}
                             <span>{weatherData.list[39].dt_txt}</span>
-                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[39].main.temp)}</span>
+                            <span><strong>Average Temp</strong> {Math.round(weatherData.list[39].main.temp)}°C</span>
                             <span><strong>{weatherData.list[39].weather[0].description}</strong></span>
                             <span><strong>Wind speed</strong> {weatherData.list[39].wind.speed}km/h</span>
                         </div>

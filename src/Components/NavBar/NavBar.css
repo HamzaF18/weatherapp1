@@ -1,10 +1,10 @@
 .nav-bar{
     border: 2px solid black;
     /* width:100%; */
-    background-color: rgb(222, 221, 221);
+    background-color: rgb(250, 125, 42);
 }
 .nav-buttons{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width:50%;
     display: flex;
     margin: auto;

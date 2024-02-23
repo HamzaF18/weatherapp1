@@ -13,13 +13,14 @@
     /* width:100%; */
     /* margin: auto; */
     border: 1px solid black;
-    background-color: aqua;
+    background-color: rgb(250, 125, 42);
     /* align-items: center; */
 }
 .location{
     width: 850px;
     margin-left: 450px;
     padding:6px 2px;
+    border-radius: 30px 30px;
 }
 .cards{
     border: 2px solid black;
@@ -31,7 +32,7 @@
     /* display: evenly; */
 }
 .card{
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 0);
     flex: 1;
     text-align: center;
     display: flex;
