@@ -6,7 +6,7 @@
 }
 .title{
     border:1px solid rgb(0, 0, 0);
-    background-color: rgb(250, 125, 42);
+    background-color: rgb(159, 189, 253);
     text-align: center;
     
 }
@@ -14,7 +14,7 @@
     border:2px solid black;
     /* width: fit-content; */
     /* width:800px; */
-    background-color: rgb(250, 125, 42);
+    background-color: rgb(159, 189, 253);
     
 }
 .info-box{
@@ -23,6 +23,7 @@
     overflow-wrap: break-word;
     /* padding: 0; */
     /* margin: 0; */
+    background-color: rgb(159, 189, 253);
 }
 .FAQ-questions{
     display: flex;
@@ -43,13 +44,14 @@
         border: 1px solid black;
         width: 50%;
         padding: 10px 9px;
-        background-color: rgb(250, 125, 42);
+        background-color: rgb(159, 189, 253);
         border-radius: 30px;
         
     }
 }
 
 .winter{
+    background-color: rgb(159, 189, 253);
     margin-top: 10px;
     border: 3px solid black;
     padding: 10px 10px;
@@ -58,6 +60,7 @@
     /* margin: auto; */
 }
 .summer{
+    background-color: rgb(159, 189, 253);
     margin-top: 10px;
     border: 3px solid black;
     padding: 10px 10px;
