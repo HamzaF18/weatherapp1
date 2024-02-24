@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import FAQ from './Components/FAQ/FAQ';
 import AuthForm from './Components/AuthForm/AuthForm';
 import Home from "./Components/Home/Home";
+import Dashboard from './Components/Dashboard/Dashboard';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/login" element={<AuthForm />} />
+        <Route path="/login" element={<AuthForm />}/>
+        <Route path="dashboard" element={<Dashboard/>}/>
       </Routes>
 
 

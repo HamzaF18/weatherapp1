@@ -21,6 +21,7 @@ const NavBar = ()=>{
             <div className="nav-buttons">
                 <NavButton text="Home" path="/"/>
                 <NavButton text="FAQ " path="/faq" />
+                <NavButton text="Dashboard" path="/dashboard"/>
                 <NavButton text="Sign in" path="/login"/>
             </div>
         </div>
