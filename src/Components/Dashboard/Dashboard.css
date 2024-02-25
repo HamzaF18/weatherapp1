@@ -1,0 +1,15 @@
+.dashboard{
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.box{
+    border: 1px solid black;
+    margin: auto;
+}
+.boxes{
+    border: 1px solid white;
+    padding: 10px;
+}
