@@ -29,14 +29,14 @@ const Dashboard = () => {
                 <div className="dashboard">
                 <h1>Air Pollution in London</h1>
                 <div className="box">
-                    <div className="boxes"><span>Carbon monoxide {airPollutionData.list[0].components.co}</span></div>
-                    <div className="boxes"><span>Nitrogen monoxide {airPollutionData.list[0].components.no}</span></div>
-                    <div className="boxes"><span>Nitrogen dioxide {airPollutionData.list[0].components.no2}</span></div>
-                    <div className="boxes"><span>Ozone {airPollutionData.list[0].components.o3}</span></div>
-                    <div className="boxes"><span>Sulphur dioxide {airPollutionData.list[0].components.so2}</span></div>
-                    <div className="boxes"><span>Ammonia {airPollutionData.list[0].components.nh3}</span></div>
-                    <div className="boxes"><span>Pm2.5 {airPollutionData.list[0].components.pm2_5}</span></div>
-                    <div className="boxes"><span>Pm10 {airPollutionData.list[0].components.pm10}</span></div>
+                    <div className="boxes"><span>Carbon monoxide <strong>{airPollutionData.list[0].components.co}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Nitrogen monoxide <strong>{airPollutionData.list[0].components.no}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Nitrogen dioxide <strong>{airPollutionData.list[0].components.no2}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Ozone <strong>{airPollutionData.list[0].components.o3}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Sulphur dioxide <strong>{airPollutionData.list[0].components.so2}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Ammonia <strong>{airPollutionData.list[0].components.nh3}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Pm2.5 <strong>{airPollutionData.list[0].components.pm2_5}μg/m3</strong></span></div>
+                    <div className="boxes"><span>Pm10 <strong>{airPollutionData.list[0].components.pm10}μg/m3</strong></span></div>
                 </div>
             </div>
             )
