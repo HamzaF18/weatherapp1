@@ -3,9 +3,6 @@ import { useState, useEffect } from "react";
 
 
 
-
-
-
 const Dashboard = () => {
     const [airPollutionData, setAirPollutionData] = useState(null);
 
@@ -24,20 +21,27 @@ const Dashboard = () => {
 
 
     return (
-        <div className="dashboard">
-            <h1>London</h1>
-            <div className="box">
-                <div className="boxes"><span>Carbon monoxide</span></div>
-                <div className="boxes"><span>Nitrogen monoxide</span></div>
-                <div className="boxes"><span>Nitrogen dioxide</span></div>
-                <div className="boxes"><span>Ozone</span></div>
-                <div className="boxes"><span>Sulphur dioxide</span></div>
-                <div className="boxes"><span>Ammonia</span></div>
-                <div className="boxes"><span>particulates</span></div>
-                <div className="boxes"><span>particulates</span></div>
+        <div>
+
+            {typeof airPollutionData?.list[0].main === 'undefined'? (
+                <div></div>
+            ) : (
+                <div className="dashboard">
+                <h1>Air Pollution in London</h1>
+                <div className="box">
+                    <div className="boxes"><span>Carbon monoxide {airPollutionData.list[0].components.co}</span></div>
+                    <div className="boxes"><span>Nitrogen monoxide {airPollutionData.list[0].components.no}</span></div>
+                    <div className="boxes"><span>Nitrogen dioxide {airPollutionData.list[0].components.no2}</span></div>
+                    <div className="boxes"><span>Ozone {airPollutionData.list[0].components.o3}</span></div>
+                    <div className="boxes"><span>Sulphur dioxide {airPollutionData.list[0].components.so2}</span></div>
+                    <div className="boxes"><span>Ammonia {airPollutionData.list[0].components.nh3}</span></div>
+                    <div className="boxes"><span>Pm2.5 {airPollutionData.list[0].components.pm2_5}</span></div>
+                    <div className="boxes"><span>Pm10 {airPollutionData.list[0].components.pm10}</span></div>
+                </div>
             </div>
+            )
+            }
         </div>
     )
-
 }
 export default Dashboard;

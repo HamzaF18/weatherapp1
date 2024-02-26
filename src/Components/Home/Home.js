@@ -107,8 +107,8 @@ const Home = () => {
                     <h1>Welcome to the Health Advice Group</h1>
                     <h2>Our wesbite offers free information and support for environmental health issues to everyone!</h2>
                     <ul><strong>Our services include</strong>:
-                        <li>A 5-day weather forecast</li>
-                        <li>An advice page with faq's and health advice</li>
+                        <li>A 5-day Weather Forecast</li>
+                        <li>An advice page with FAQ's and Health advice</li>
                     </ul>
                 </div>
             </div>
