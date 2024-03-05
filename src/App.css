@@ -1,1 +1,23 @@
+.dark-theme{
+    --text-color: #f1fce9;
+    --background-color: #000000;
+    --accent-color: #27DD8B;
+    --primary-color: #3DE145;
+    --on-primary-color: #272727;
+    --secondary-color: #08311E;
+}
+.light-theme{
+    --text-color: #000000;
+    --background-color: #f1fce9;
+    --accent-color: #27DD8B;
+    --primary-color: #3DE145;
+    --on-primary-color: #272727;
+    --secondary-color: #27DD8B;
+}
 
+#App{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    /* text-align: center; */
+}

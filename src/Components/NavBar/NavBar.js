@@ -1,5 +1,6 @@
 import "./NavBar.css"
 import { useNavigate } from "react-router-dom";
+import ThemeToggleButton from "../ThemeToggleButton/ThemeToggleButton";
 
 
 const NavButton = ({ text, path }) => {
@@ -15,15 +16,16 @@ const NavButton = ({ text, path }) => {
 
 }
 
-const NavBar = ()=>{
-    return(
+const NavBar = () => {
+    return (
         <div className="nav-bar">
             <div className="nav-buttons">
-                <NavButton text="Home" path="/"/>
+                <NavButton text="Home" path="/" />
                 <NavButton text="FAQ " path="/faq" />
-                <NavButton text="Dashboard" path="/dashboard"/>
-                <NavButton text="Sign in" path="/login"/>
+                <NavButton text="Dashboard" path="/dashboard" />
+                <NavButton text="Sign in" path="/login" />
             </div>
+            <ThemeToggleButton />
         </div>
     )
 }

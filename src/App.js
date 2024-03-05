@@ -5,14 +5,16 @@ import FAQ from './Components/FAQ/FAQ';
 import AuthForm from './Components/AuthForm/AuthForm';
 import Home from "./Components/Home/Home";
 import Dashboard from './Components/Dashboard/Dashboard';
+import { useTheme } from './Contexts/ThemeContext';
 
 
 function App() {
+  const {theme} = useTheme();
 
 
   return (
 
-    <div className="App">
+    <div id="App" className={theme}>
       <NavBar/>
 
 
